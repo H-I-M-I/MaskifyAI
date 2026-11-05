@@ -1,8 +1,8 @@
-# MaskifyAI – Mask R-CNN Instance Segmentation
+# MaskifyAI - Mask R-CNN Instance Segmentation
 
 MaskifyAI demonstrates **object detection and instance segmentation using a pre-trained Mask R-CNN model from TensorFlow Hub**.
 
-The project uses **Mask R-CNN with an Inception-ResNet-V2 backbone** to identify objects in an image, generate bounding boxes, assign class labels and confidence scores, and produce a separate segmentation mask for each detected object.
+The project uses **Mask R-CNN with an Inception-ResNet-V2 backbone** to identify objects in an image, generate bounding boxes, assign class labels and confidence scores and produce a separate segmentation mask for each detected object.
 
 ## What the Project Does
 
@@ -15,7 +15,7 @@ The notebook performs the following steps:
 5. Extracts object detection and segmentation outputs.
 6. Converts predicted masks from bounding-box coordinates to full-image masks.
 7. Applies a threshold to the segmentation masks.
-8. Visualizes detected objects using bounding boxes, class labels, confidence scores, and instance masks.
+8. Visualizes detected objects using bounding boxes, class labels, confidence scores and instance masks.
 
 ## Model
 
